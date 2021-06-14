@@ -2,15 +2,26 @@
   "name": "uikit-webpack",
   "version": "1.0.0",
   "main": "src/index.js",
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
-    "dev": "webpack serve & open http://localhost:3000/",
-    "build": "webpack --mode=production"
+    "build": "webpack --config=webpack.config.prod.js",
+    "dev": "webpack --config=webpack.config.dev.js",
+    "start": "webpack serve --config=webpack.config.dev.js --open"
   },
   "dependencies": {
     "uikit": "^3.6.22"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
