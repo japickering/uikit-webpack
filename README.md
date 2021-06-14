@@ -1,5 +1,5 @@
 ## uikit-webpack
-This project is a starter kit and testbed for developing web applicaition components using UI Kit that supports SASS, JavaScript, Babel and Webpack.
+This project is a starter kit and testbed for developing website components using UI Kit that supports SASS, JavaScript, Babel and Webpack.
 
 I setup SASS loader configs in the webpack.config that makes developing locally faster and easier. 
 [Follow this useful guide](https://ideas.byteridge.com/webpack-bundle-your-frontend-apps/) for more info on that.
