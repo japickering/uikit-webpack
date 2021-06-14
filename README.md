@@ -5,19 +5,23 @@ I setup SASS loader configs in the webpack.config that makes developing locally 
 [Follow this useful guide](https://ideas.byteridge.com/webpack-bundle-your-frontend-apps/) for more info on that.
 
 ## Getting up and running
-```yarn install
+```sh
+yarn install
 ```
 
 ### Setup dev environment
-```yarn dev
+```sh
+yarn dev
 ```
 
 ### Start a local dev server
-```yarn start
+```sh
+yarn start
 ```
 
 ### Create a new production build
-```yarn build
+```sh
+yarn build
 ```
 
 ## Installing UIKit from scratch
