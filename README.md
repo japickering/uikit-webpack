@@ -1,13 +1,14 @@
-# uikit-webpack
-This project is a starter kit for developing websites and applications based on UI Kit that supports SASS, JavaScript, Babel and Webpack.
+## uikit-webpack
+This project is a starter kit and testbed for developing web applicaition components using UI Kit that supports SASS, JavaScript, Babel and Webpack.
 
-I have setup SASS loader configs in the webpack.config that makes developing locally faster and easier. [Follow this useful guide](https://ideas.byteridge.com/webpack-bundle-your-frontend-apps/) for more info on that.
+I setup SASS loader configs in the webpack.config that makes developing locally faster and easier. 
+[Follow this useful guide](https://ideas.byteridge.com/webpack-bundle-your-frontend-apps/) for more info on that.
 
-## Installing this project locally
+## Getting up and running
 ```yarn install
 ```
 
-### Setup the dev environment
+### Setup dev environment
 ```yarn dev
 ```
 
@@ -18,6 +19,7 @@ I have setup SASS loader configs in the webpack.config that makes developing loc
 ### Create a new production build
 ```yarn build
 ```
+
 ## Installing UIKit from scratch
 You have the following options to get UIkit:
 
