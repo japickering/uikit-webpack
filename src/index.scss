@@ -14,10 +14,16 @@ h1, h2, h3, h4, h5, h6,
 .uk-heading-xlarge,
 .uk-heading-2xlarge {
   margin: 0 0 20px 0;
-  font-family: ProximaNova, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: ProximaNova, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 300;
   color: $text-color;
   text-transform: none;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
 }
 
 .uk-section {
@@ -34,10 +40,14 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
-svg {
-  max-width: 100%;
-  height: auto;
-  box-sizing: border-box;
+.content {
+	margin-top: 20px;
+}
+
+.uk-sticky-fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .uk-light .uk-logo,
