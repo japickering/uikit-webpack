@@ -1,21 +1,19 @@
 $body-color: #eee;
 $text-color: #222;
 
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body {
   background: $body-color;
   color: $text-color;
+	font-family: ProximaNova, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6,
-.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6,
-.uk-heading-small,
-.uk-heading-medium,
-.uk-heading-large,
-.uk-heading-xlarge,
-.uk-heading-2xlarge {
-  margin: 0 0 20px 0;
-  font-family: ProximaNova, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 300;
+h1, h2, h3, h4, h5, h6 {
   color: $text-color;
   text-transform: none;
 }
@@ -26,11 +24,15 @@ svg {
   box-sizing: border-box;
 }
 
+.uk-svg,
+.uk-svg:not(.uk-preserve) [fill*='#']:not(.uk-preserve) {
+  fill: currentcolor;
+}
+
 .uk-section {
   display: flow-root;
-  box-sizing: border-box;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 960px) {
@@ -50,6 +52,10 @@ svg {
 	width: 100%;
 }
 
+.tm-navbar-container {
+  background: linear-gradient(to left, #28a5f5, #1e87f0) !important;
+}
+
 .uk-light .uk-logo,
 .uk-section-primary:not(.uk-preserve-color) .uk-logo,
 .uk-section-secondary:not(.uk-preserve-color) .uk-logo,
@@ -62,11 +68,4 @@ svg {
 .uk-overlay-primary .uk-logo,
 .tm-navbar-container:not(.uk-navbar-transparent) .uk-logo {
   color: #fff;
-}
-.uk-svg,
-.uk-svg:not(.uk-preserve) [fill*='#']:not(.uk-preserve) {
-  fill: currentcolor;
-}
-.tm-navbar-container:not(.uk-navbar-transparent) {
-  background: linear-gradient(to left, #28a5f5, #1e87f0);
 }
